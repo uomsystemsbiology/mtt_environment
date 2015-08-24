@@ -1,0 +1,9 @@
+This is the reference environment for the manuscript 'Hierarchical Bond Graph Modelling of Biochemical Networks'.  The code for the project is here:
+
+https://github.com/uomsystemsbiology/hbgm_reference_environment
+
+The arXiv manuscript is here:
+
+http://arxiv.org/abs/1503.01814
+
+Run the script 'run_experiments.sh' in the root directory to reproduce the results of the paper.  Results and code will be in /home/sbl/gawcurcra15/Examples
