@@ -2,4 +2,4 @@ The default user is 'sbl' password 'sbl'
 Double-click the icon 'run_experiments.sh' and select 
 'Execute in Terminal' to reproduce the results of the paper.
 Results will be in /home/sbl/gawcurcra15/Examples
-Project code is at: https://github.com/uomsystemsbiology/hbgm_reference_environment
+The project page is at: http://uomsystemsbiology.github.io/hbgm/
