@@ -1,8 +1,8 @@
 ### Overview
 
-This is the reference environment for the manuscript ['Hierarchical Bond Graph Modelling of Biochemical Networks'](http://arxiv.org/abs/1503.01814).  It executes code to reproduce specific results described in the manuscript.   You can find more information about this research at the [project page here](http://uomsystemsbiology.github.io/hbgm/).  
+This is the reference environment for the manuscript ['Hierarchical Bond Graph Modelling of Biochemical Networks'](https://arxiv.org/abs/1503.01814).  It executes code to reproduce specific results described in the manuscript.   You can find more information about this research at the [project page here](https://uomsystemsbiology.github.io/hbgm/).  
 
-To find other versions of this reference environment, see Other Links below.  To learn more about reference environments, [see the detailed description here](http://uomsystemsbiology.github.io/reference-environments/).   
+To find other versions of this reference environment, see Other Links below.  To learn more about reference environments, [see the detailed description here](https://uomsystemsbiology.github.io/reference-environments/).   
 
 ### Instructions for use
 
@@ -17,9 +17,9 @@ This will start the container and execute the scripts which reproduce the result
 
 ### Other links
 
-[Manuscript link](http://arxiv.org/abs/1503.01814)
+[Manuscript link](https://arxiv.org/abs/1503.01814)
 
-[Project page link](http://uomsystemsbiology.github.io/hbgm/)
+[Project page link](https://uomsystemsbiology.github.io/hbgm/)
 
 [Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/hbgm_reference_environment)
 
