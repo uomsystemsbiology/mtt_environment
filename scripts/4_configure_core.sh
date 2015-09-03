@@ -15,4 +15,10 @@ sudo chmod 777 /home/sbl/run_experiments.sh
 echo Linking the shell script into the root folder | tee -a $log
 sudo ln -sv /home/sbl/run_experiments.sh /run_experiments.sh
 
+echo Giving rwx permissions to everything | tee -a $log
+sudo chmod -R 777 /home/sbl/gawcurcra15/Examples
+
+echo Setting the default graphics toolkit for Octave to gnuplot
+printf "graphics_toolkit gnuplot" >> /home/sbl/.octaverc
+
 echo Completed configure_core.sh | tee -a $log

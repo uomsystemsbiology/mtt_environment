@@ -36,14 +36,6 @@ echo
 # Change to project directory
 cd /home/sbl/gawcurcra15/Examples
 
-echo Setting up makefile | tee -a $log
-
-echo Giving rwx permissions to everything | tee -a $log
-sudo chmod -R 777 /home/sbl/gawcurcra15/Examples
-
-echo Setting the default graphics toolkit for Octave to gnuplot
-printf "graphics_toolkit gnuplot" >> /home/sbl/.octaverc
-
 echo Executing makefile | tee -a $log
 sleep 2
 ./Make 2>&1 | tee -a $log
