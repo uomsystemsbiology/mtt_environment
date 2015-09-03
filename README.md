@@ -10,7 +10,7 @@ This version of the reference environment is a virtual machine managed by [Vagra
 
 ```
 $ git clone https://github.com/uomsystemsbiology/hbgm_reference_environment.git
-$ cd project_name
+$ cd hbgm_reference_environment
 $ vagrant up
 $ vagrant reload
 ```
