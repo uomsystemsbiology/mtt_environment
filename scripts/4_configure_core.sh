@@ -21,4 +21,10 @@ sudo chmod -R 777 /home/sbl/gawcurcra15/Examples
 echo Setting the default graphics toolkit for Octave to gnuplot
 printf "graphics_toolkit gnuplot" >> /home/sbl/.octaverc
 
+echo Setting up MTT paths | tee -a $log
+export PATH=$PATH:/home/sbl/gawcurcra15/Examples/lib/bash:/home/sbl/gawcurcra15/Examples/lib/python:/home/sbl/gawcurcra15/Examples/lib/octave # Other tools
+
+printf "source /home/sbl/gawcurcra15/Examples/mtt/bin/mttrc /home/sbl/gawcurcra15/Examples/mtt\n" >> /home/sbl/.bashrc
+printf "source /home/sbl/gawcurcra15/Examples/mtt/bin/mttrc /home/sbl/gawcurcra15/Examples/mtt\n" >> /home/sbl/.profile
+	
 echo Completed configure_core.sh | tee -a $log

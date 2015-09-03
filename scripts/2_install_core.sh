@@ -12,7 +12,7 @@ echo Installing packages | tee -a $log
 	sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu precise-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
 
 	sudo apt-get -y update 
-	sudo apt-get -y install octave xfig reduce-algebra evince epstool
+	sudo apt-get -y install octave xfig reduce-algebra evince epstool gv wish
 	sudo apt-get -y autoremove
 	sudo apt-get -y install --no-install-recommends tex-common texlive-base texlive-base-bin texlive-font-utils texlive-latex-extra
 
